@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://jaiswal-ashutosh.github.io/convertkro/sitemap.xml
+
+# Block access to any hidden files
+Disallow: /.*
+
+# Allow all media and resource files
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.svg
+Allow: *.webp
+Allow: *.bmp
+Allow: *.ico
+
+# Crawl-delay (helps with server load)
+Crawl-delay: 1
